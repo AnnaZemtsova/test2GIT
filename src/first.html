@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+<nav>
+    <ul ><a  id="menu"   href="#">Menu</a>
+        <ul id="dropdown">
+            <li><a onmouseover="groupOver()" href="#">Groups</a></li>
+        </ul>
+        <ul id="groups" onclick="drawTable()">
+        </ul>
+    </ul>
+    <div>
+        <table id="table" onclick="drawSecondTable(event)">
+        </table>
+    </div>
+
+    <div>
+        <table id="secTable">
+        </table>
+    </div>
+</nav>
+</body>
+</html>

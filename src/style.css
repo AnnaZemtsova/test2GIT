@@ -1,0 +1,63 @@
+
+a {
+    color: #fff;
+}
+nav {
+    position: relative;
+}
+#menu {
+    background: #777;
+    border-radius: .2em .2em 0 0;
+    width: 200px;
+    padding-bottom: 20px;
+}
+#dropdown {
+    display: none;
+    background: #717;
+    width: 200px;
+    border-radius: .2em .2em 0 0;
+    padding: 15px 20px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    padding: .5em 1em;
+    display: block;
+}
+#menu:hover + #dropdown{
+    display: block;
+}
+
+#dropdown:hover{
+    display: block;
+}
+
+#groups{
+    display: block;
+    position: relative;
+    margin-left: 220px;
+    margin-top: -50px;
+    color: black;
+}
+
+#table {
+    margin-top: 10%;
+    border-collapse: collapse;
+    display: none;
+}
+#secTable {
+    margin-top: 10%;
+    border-collapse: collapse;
+    display: none;
+}
+td {
+    padding: 3px;
+    border: 1px solid black;
+}
+tr {
+    padding: 3px;
+    border: 1px solid black;
+    background: #b0e0e6;
+}
